@@ -17,7 +17,7 @@ function Customers() {
   };
 
   return (
-    <div>
+    <div className="Vid">
       {/* Navbar Section */}
       <nav className="navbar">
         <div className="navbar-links">
@@ -29,8 +29,8 @@ function Customers() {
       </nav>
 
       {/* Page Content */}
-      
-      <h1 className="page-title">Loan Customer Form</h1>
+      <h2>Welcome to Loan Customers</h2>
+      <h1 className="page-title">Customer Details Form</h1>
       <form >
         <div className="form-group">
           <label>First Name</label>
