@@ -1,0 +1,37 @@
+
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .category-box {
+    background-color: #e0e0e0;
+    padding: 0; /* Removed extra padding to avoid affecting centering */
+    border-radius: 20px; /* Adjusted radius for better appearance */
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    text-decoration: none;
+    color: #830000;
+    display: flex; /* Flexbox ensures text is perfectly centered */
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    
+  }
+  
+  .category-box:hover {
+    background-color: #a1e6f0;
+    transform: scale(1.05);
+  }
+  
+  .category-box h3 {
+    margin: 0;
+    font-size: 1rem; /* Adjust font size for better fitting */
+    text-align: center;
+    padding-left: 5px; /* Center text alignment */
+  }
+  

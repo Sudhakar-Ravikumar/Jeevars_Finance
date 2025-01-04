@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #88969a;
+    padding-left: 4vw; /* Add some padding to the left if needed */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 10px solid #ddd;
+    border-radius: 20px;
+  }
+  .form-container h2 {
+    color: #219022; /* Change color to distinguish */
+  }
+  
+  .form-container input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #b3001e;
+  }
+  
+  .form-container p {
+    margin-top: 10px;
+    color: #d73526;
+  }
+  
+  .form-container a {
+    color: #5838e4;
+    text-decoration: none;
+  }
+  
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (min-width: 400px) {
+    body {
+      justify-content: center; /* Center container on smaller screens */
+      padding-left: 0;
+    }
+  
+    .form-container {
+      width: 90%; /* Reduce width for smaller screens */
+      max-width: none;
+      padding: 10px; /* Reduce padding */
+    }
+  
+    .form-container input {
+      width: 100%; /* Full width inputs */
+    }
+  
+    .form-container button {
+      width: 70%; /* Adjust button width */
+    }
+  }
+  @media (min-width: 1000px) {
+    .form-container {
+      width: 80%; /* Reduce width for smaller screens */
+      max-width: none;
+      padding: 40px; /* Reduce padding */
+      margin-top: 0;
+    }
+    body {
+        justify-content: center; /* Center container on smaller screens */
+        padding-left: 0vh;
+      }
+}
+  
+ 

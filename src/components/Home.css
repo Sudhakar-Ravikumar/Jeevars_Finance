@@ -1,0 +1,72 @@
+
+  /* Navbar styling */
+  .navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 10px;
+    left: 130px;
+    width: 80%; /* Full width */
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+  
+  /* Navbar links container */
+  .navbar-links {
+    display: flex;
+    justify-content: space-around; /* Space out the links evenly */
+    align-items: center;
+  }
+  
+  /* Navbar links styling */
+  .navbar-links a {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 15px; /* Add some padding around links */
+    border-radius: 4px; /* Slightly round the corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar-links a:hover {
+    background-color: #555; /* Change background on hover */
+  }
+  
+  /* Content section below the navbar */
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size:50px;
+  }
+  h3 {
+    padding-left : 520px;
+    font-size:30px;
+     color: #333;
+  }
+  @media (max-width: 1400px) {
+   .navbar {
+    left: 105px;
+    width: 80%;
+   }
+  }
+  @media (max-width: 1150px) {
+    .navbar {
+     left: 80px;
+     width: 80%;
+    }
+   }
+   @media (max-width: 950px) {
+    .navbar {
+     left: 75px;
+     width: 80%;
+    }
+    h2 {
+        text-align: center;
+        color: #333;
+        font-size:40px;
+      }
+      h3 {
+        padding-left : 280px;
+        font-size:30px;
+        color: #333;
+      }
+   }
