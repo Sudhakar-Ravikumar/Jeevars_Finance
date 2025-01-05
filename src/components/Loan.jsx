@@ -5,7 +5,7 @@ import './Loan.css';
 const Loan = () => {
   const categories = [
     { id: 1, name: "Customers", page: "/customers" },
-    { id: 2, name: "Loan Details", page: "/loans" },
+    { id: 2, name: "Loan Details", page: "/loandetails" },
     { id: 3, name: "Interest Entries", page: "/interests" },
     { id: 4, name: "Specific Customer", page: "/details" },
     { id: 5, name: "Validity Over", page: "/validity" },

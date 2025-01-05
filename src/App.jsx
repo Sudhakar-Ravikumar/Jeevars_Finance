@@ -7,7 +7,9 @@ import Home from './components/Home';
 import Loan from './components/Loan';
 import Deposit from './components/Deposit';
 import EMI from './components/EMI';
-import Customers from './components/customers';
+import Customers from './components/Customers';
+import Loandetails from './components/Loandetails';
+import Interests from './components/Interests';
 // import Profit from './components/Profit';
 
 
@@ -21,9 +23,11 @@ const App = () => (
       <Route path="/loan" element={<Loan />}> </Route>
       <Route path="/deposit" element={<Deposit />} />
       <Route path="/emi" element={<EMI />} /> 
-      <Route path="/customers" element={<Customers />}></Route>
+      <Route path="/customers" element={<Customers />} />
+      <Route path="/loandetails" element={<Loandetails />} />
+      <Route path="/interests" element={<Interests />}>
+      </Route> 
       {/* <Route path="/profit" element={<Profit />} />   */}
-      
     </Routes>
   </Router>
 );
