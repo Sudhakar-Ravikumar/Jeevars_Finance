@@ -116,7 +116,7 @@ function Customers() {
       </nav>
 
       {/* Page Content */}
-      <h2>Welcome to Loan Customers</h2>
+      <h2>Welcome to Loan Customers !!</h2>
       <h1 >Customer Details Form</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -202,8 +202,8 @@ function Customers() {
           {editingCustomer ? "Update Customer" : "Add Customer"}
         </button>
       </form>
-
-      <h2>Customer List</h2>
+     
+      <h3>Customers List</h3>
       <table>
         <thead>
           <tr>
