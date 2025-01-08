@@ -37,7 +37,7 @@ function Customers() {
         },
         body: JSON.stringify(form),
       });
-
+      console.log(JSON.stringify(form));
       if (response.ok) {
         alert(editingCustomer ? "Customer updated successfully!" : "Customer added successfully!");
         setForm({

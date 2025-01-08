@@ -68,7 +68,7 @@ const Loandetails = () => {
         headers,
         body: JSON.stringify(loanData),
       });
-
+      console.log(JSON.stringify(loanData));
       if (!response.ok) {
         throw new Error('Error saving loan');
       }
@@ -98,7 +98,10 @@ const Loandetails = () => {
   };
 
   const handleEdit = (loan) => {
-    setForm(loan);
+    setForm({
+      ...loan,
+      dob: loan.dob ? new Date(loan.dob).toISOString().split("T")[0] : "", // Format the date
+    });
     setEditingLoan(loan);
   };
 
