@@ -131,8 +131,8 @@ const Loandetails = () => {
   return (
     <div className="loan-container">
       <Navbar />
-      <h1>Loan Management</h1>
-      <h2>{editingLoan ? 'Edit Loan' : 'Add Loan'}</h2>
+      <h1>Welcome to Loan's Loans !!</h1>
+      <h2>Loan Details Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Customer ID</label>
@@ -220,7 +220,7 @@ const Loandetails = () => {
         <button type="submit">{editingLoan ? 'Update Loan' : 'Add Loan'}</button>
       </form>
 
-      <h2>Loans List</h2>
+      <h2>Existing Loans</h2>
       <table>
         <thead>
           <tr>

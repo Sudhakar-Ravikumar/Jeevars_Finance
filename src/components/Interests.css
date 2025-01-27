@@ -1,6 +1,6 @@
 
 .loan-entries-container {
-    padding-left: 30px;
+    padding-left: 400px;
     padding-top: 20px;
 }
   .loan-entries-form {
@@ -67,7 +67,7 @@
   
   .int h2 {
     text-align: center;
-    margin-top: 350px;
+    margin-top: 650px;
     font-size: 34px;
     color: #333;
   }
@@ -76,4 +76,7 @@
     margin-top: 8px;
     font-size: 28px;
     color: #333;
+  }
+  .int h3 {
+  padding-left: 480px;
   }

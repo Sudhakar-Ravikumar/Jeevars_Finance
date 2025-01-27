@@ -9,13 +9,15 @@
   margin-top: 10px;
   font-size: 24px;
   color: #333;
+  position: relative;
 }
 
 .Vid h2 {
   text-align: center;
-  margin-top: 940px;
+  margin-top: 840px;
   font-size: 34px;
   color: #333;
+  position: relative;
 }
 .Vid h3 {
   text-align: center;
@@ -23,6 +25,7 @@
   margin-top: 70px;
   font-size: 34px;
   color: #333;
+  position: relative;
 }
 
 

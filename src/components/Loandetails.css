@@ -7,16 +7,20 @@
 .loan-container h1 {
   text-align: center;
   font-size: 32px;
-  color: #2c3e50;
+  color: #333;
   margin-bottom: 30px;
-  margin-top: 700px;
+  margin-top: 750px;
+  position: relative;
+ 
 }
 
 .loan-container h2 {
   text-align: center;
   font-size: 28px;
-  color: #34495e;
+  color: #333;
   margin: 30px 0 20px;
+  position: relative;
+  
 }
 
 /* Form Styling */

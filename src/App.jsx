@@ -10,6 +10,7 @@ import EMI from './components/EMI';
 import Customers from './components/Customers';
 import Loandetails from './components/Loandetails';
 import Interests from './components/Interests';
+import Specific from './components/Specific';
 // import Profit from './components/Profit';
 
 
@@ -25,8 +26,9 @@ const App = () => (
       <Route path="/emi" element={<EMI />} /> 
       <Route path="/customers" element={<Customers />} />
       <Route path="/loandetails" element={<Loandetails />} />
-      <Route path="/interests" element={<Interests />}>
-      </Route> 
+      <Route path="/interests" element={<Interests />} />
+      <Route path="/specific" element={<Specific />}></Route>
+      
       {/* <Route path="/profit" element={<Profit />} />   */}
     </Routes>
   </Router>

@@ -113,7 +113,7 @@ function Interests() {
   return (
     <div className="int">
       <Navbar />
-      <h2>Welcome to Loan Interests!</h2>
+      <h2>Welcome to Loan's Interests !!</h2>
       <h1>Interests Form</h1>
       <div className="loan-entries-container">
         <form className="loan-entries-form" onSubmit={handleSubmit}>

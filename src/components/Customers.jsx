@@ -116,7 +116,7 @@ function Customers() {
       </nav>
 
       {/* Page Content */}
-      <h2>Welcome to Loan Customers !!</h2>
+      <h2>Welcome to Loan's Customers !!</h2>
       <h1 >Customer Details Form</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -203,7 +203,7 @@ function Customers() {
         </button>
       </form>
      
-      <h3>Customers List</h3>
+      <h3>Existing Customers</h3>
       <table>
         <thead>
           <tr>
