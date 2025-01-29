@@ -11,6 +11,7 @@ import Customers from './components/Customers';
 import Loandetails from './components/Loandetails';
 import Interests from './components/Interests';
 import Specific from './components/Specific';
+import Validity from './components/Validity';
 // import Profit from './components/Profit';
 
 
@@ -27,7 +28,9 @@ const App = () => (
       <Route path="/customers" element={<Customers />} />
       <Route path="/loandetails" element={<Loandetails />} />
       <Route path="/interests" element={<Interests />} />
-      <Route path="/specific" element={<Specific />}></Route>
+      <Route path="/specific" element={<Specific />} />
+      <Route path="/validity" element={<Validity />} >
+      </Route>
       
       {/* <Route path="/profit" element={<Profit />} />   */}
     </Routes>

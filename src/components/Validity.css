@@ -1,0 +1,14 @@
+.big-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .error-text {
+    color: red;
+  }
+  
+  .no-loans {
+    text-align: center;
+  }
